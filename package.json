@@ -4,6 +4,7 @@
   "description": "This Repo is the collection of api collection to share among developers and testers",
   "main": "index.js",
   "scripts": {
+    "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Abhiram Cheekala",
