@@ -1,0 +1,30 @@
+{
+  "requests": [
+    {
+      "uuid": "306a2aea-f2dc-43b7-a95d-99cd31e462e4",
+      "name": "PUT update student",
+      "request": {
+        "method": "PUT",
+        "endpoint": "/students/:id",
+        "body": {
+          "name": "Jane Doe",
+          "age": 23
+        }
+      }
+    },
+    {
+      "uuid": "88b73db9-78e9-4e02-a882-f7886bec770b",
+      "name": "PUT update Token",
+      "request": {
+        "method": "PUT",
+        "endpoint": "/students/:id",
+        "authorization": "Bearer",
+        "token": "eyvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv....",
+        "body": {
+          "name": "Jane Doe",
+          "age": 23
+        }
+      }
+    }
+  ]
+}
